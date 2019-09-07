@@ -29,11 +29,15 @@
   import Numbers9 from './data/Numbers9'
   import Numbers10 from './data/Numbers10'
   import Numbers11 from './data/Numbers11'
+  import Numbers12 from './data/Numbers12'
+  import Numbers13 from './data/Numbers13'
+  import Numbers14 from './data/Numbers14'
 
   export default {
     name: 'HelloWorld',
-    components: { Numbers1, Numbers2, Numbers3, Numbers4, Numbers5, Numbers6, Numbers7,
-      Numbers8, Numbers9, Numbers10, Numbers11 },
+    components: { Numbers1, Numbers2, Numbers3, Numbers4, Numbers5,
+      Numbers6, Numbers7, Numbers8, Numbers9, Numbers10,
+      Numbers11, Numbers12, Numbers13, Numbers14 },
     props: {
       msg: String,
     },
